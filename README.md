@@ -40,5 +40,5 @@
         </ol></li><br>
     <li>Resources Used</li>
         <ul>
-            <li><a href = "developer.mozilla.org/en-US/">MDN Documentations</a> 
-            <li><a href="www.w3schools.com">w3Schools</a>
+            <li><a href = "https://developer.mozilla.org/en-US/">MDN Documentations</a> 
+            <li><a href="https://www.w3schools.com/">w3Schools</a>
