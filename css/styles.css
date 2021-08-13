@@ -1,0 +1,240 @@
+*{
+    margin:0;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 4em;
+    text-align: center;
+}
+h2{
+    font-size: 2.2em;
+}
+
+.page__header{
+    text-decoration: none;
+}
+
+.navbar__menu{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    height: 5%;
+    align-items: center;
+    width: 100%;
+    background-color: #8ca0ff;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .5s;
+    overflow: hidden;
+
+}
+
+.navbar__menu:focus{
+    background-color:white;
+}
+
+.topLogoContainer{
+    z-index: 100;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width:4em;
+    height: 2em;
+    margin-left: 5px;
+    transition: 1s;
+}
+
+.topLogoContainer:focus, .topLogoContainer:hover{
+    border-radius: 0px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
+}
+
+.appButtton{
+    z-index: 100;
+}
+.helloButton{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    background-color: #8ca0ff;
+    padding: 6px 15px ;
+    border-radius: 20px;
+    color:black;
+    transition: .5s, border-radius .8s;
+    margin-right: 5px;
+}
+
+.helloButton:hover, .helloButton:focus{
+    opacity: .5;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, .2);
+    border-radius: 0px;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    font-size: 1rem;
+}
+
+.navbarsection{
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+.navbarsection:hover, .navbarsection:focus{
+    opacity: 0.5;
+}
+
+.navbarsection p {
+    font-size: 10pt;
+}
+.logo{
+    width:60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 678px;
+    max-height: 440px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: 1.1s;
+}
+.logo:hover, .logo:focus{
+    border-radius: 0px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, .3);
+}
+
+.sec2Inner .logo:hover,.sec2Inner .logo:focus, .sec4Inner .logo:hover,.sec4Inner .logo:focus{
+    border-radius: 0px;
+    box-shadow: -10px 10px 30px rgba(0, 0, 0, .3);
+}
+
+#mainDiv{
+    display: flex;
+}
+
+
+.mainTitle{
+    display: flex;
+    flex-direction: column;
+    background-color: #8ca0ff;
+    height: 50em;
+    justify-content: center;
+    align-items: center;
+}
+#sec1{
+    background-color: #ffa08c;
+    padding:10%;
+}
+.sec1Inner{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+.secContent{
+    display: flex;
+    flex-direction: column;
+}
+.secContent p {
+    font-size: .7em;
+    text-align: center;
+}
+
+#sec2{
+    background-color: #ffa07c;
+    padding:10%;
+}
+.sec2Inner{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+#sec3{
+    background-color: #ffa06c;
+    padding:10%;
+}
+.sec3Inner{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+
+#sec4{
+    grid-area: sec4;
+    background-color: #ffa05c;
+    padding:10%;
+}
+.sec4Inner{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
+.upBtn{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffa05c;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13pt;
+}
+
+#upBtn{
+    pointer-events: auto;
+	cursor: pointer;
+	background-color: #1a1a1a;
+	border: none;
+	padding: 1.5rem 2rem;
+	margin: 3%;
+	font-family: inherit;
+	font-size: inherit;
+	position: relative;
+	display: inline-block;
+    transition: .5s, border-radius 1s;
+    border-radius: 20px;
+    color: #fef4f3;
+}
+
+#upBtn:hover, #upBtn:focus{
+    background-color: rgba(26, 26, 26, .5);
+    color: rgba(254, 244, 243, .7);
+    border-radius: 0px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, .2);
+}
