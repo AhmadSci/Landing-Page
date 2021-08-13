@@ -5,6 +5,7 @@ const upBtn = document.querySelector("#upBtn");
 const title = document.querySelector(".mainTitle")
 const navBarBackground = document.querySelector(".navbar__menu");
 const helloButton = document.querySelector(".helloButton");
+const linkLogo = document.querySelector(".linkLogo");
 let i;
 
 //add sections to the navigation bar 
@@ -32,7 +33,7 @@ upBtn.addEventListener("click", function(){
     title.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
 })
 
-//change the background color of the navbar on scrolling past the main title
+//change the background color of the navbar and addingshadow on scrolling past the main title
 window.addEventListener('scroll', function (e) {
     if ( document.documentElement.scrollTop > (title.getBoundingClientRect().bottom + 750)) {
             navBarBackground.style.setProperty('background-color', '#ffffff');
@@ -43,11 +44,33 @@ window.addEventListener('scroll', function (e) {
         }
 });
 
-//add shadow to the navbar on scrolling past the main title
+//chaging the background color and color of text of the hello button on scrolling past the main title
 window.addEventListener('scroll', function (e) {
     if ( document.documentElement.scrollTop > (title.getBoundingClientRect().bottom + 750)) {
             helloButton.style.setProperty('background-color', '#ffffff');
+            helloButton.style.setProperty('color', '#1a1a1a');
         } else {
             helloButton.style.setProperty('background-color', '#8ca0ff');
+            helloButton.style.setProperty('color', '#fef4f3');
+        }
+});
+
+//changing the color of the ul elemnts on scrolling past the main title
+for (let i = 0; i < navbarsections.length; i++){
+    window.addEventListener('scroll', function (e) {
+        if ( document.documentElement.scrollTop > (title.getBoundingClientRect().bottom + 750)) {
+                navbarsections[i].style.setProperty('color', '#1a1a1a');
+            } else {
+                navbarsections[i].style.setProperty('color', '#fef4f3');
+            }
+    });
+}
+
+//inverts the logo up top in the navbar on scrolling past the main title
+window.addEventListener('scroll', function (e) {
+    if ( document.documentElement.scrollTop > (title.getBoundingClientRect().bottom + 750)) {
+            linkLogo.style.setProperty('filter', 'none');
+        } else {
+            linkLogo.style.setProperty('filter', 'invert()');
         }
 });
