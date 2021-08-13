@@ -1,6 +1,5 @@
-<h1>Hello!</h1>
-<p>Welcom to my first Prject!!</p>
-<p>I built a LandingPage completly designed and coded from scratch by me.</p><br><br>
+<h1>Welcome to my first prject!!</h1>
+<p>I built a LandingPage completly designed and coded from scratch by me.</p><br>
 
 <h1>Explanation</h1>
 <ol>
@@ -9,7 +8,7 @@
     <li>Then I used some <code>JavaScript</code> magic to do some cool interaactive stuff to the webite :) &#10003
     <li>All bult completely from scrach by me &#10003
 </ol>
-<h6>PS: took me 8 consecutive hours to build this :)</p><br><br>
+<h6>PS: took me 8 consecutive hours to build this :)</p><br>
 
 <h1>What's Implemented</h1>
 <ul>
