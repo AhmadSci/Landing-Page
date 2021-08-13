@@ -37,4 +37,8 @@
         <ol>
             <li>Comments are present and effectively explain longer code procedure when necessary. &#10003</li>
             <li>Code is formatted with consistent, logical, and easy-to-read formatting as described in the <code>Udacity JavaScript Style Guide</code>. &#10003</li>
-        </ol></li>
+        </ol></li><br>
+    <li>Resources Used</li>
+        <ul>
+            <li><a href = "developer.mozilla.org/en-US/">MDN Documentations</a> 
+            <li><a href="www.w3schools.com">w3Schools</a>
