@@ -2,11 +2,11 @@
 Built a LandingPage completly designed and coded from scratch by me.
 
 ## Explanation
-* I used <code>HTML</code> to build MY desired structure of the site.
+* I used `HTML` to build MY desired structure of the site.
 
-* Then used <code>CSS</code> to get the look that I wanted.
+* Then used `CSS` to get the look that I wanted.
 
-* Then I used some <code>JavaScript</code> magic to do some cool interaactive stuff to the webite :)
+* Then I used some `JavaScript` magic to do some cool interaactive stuff to the webite :)
 
 * All bult completely from scrach by me
 
@@ -17,10 +17,10 @@ Built a LandingPage completly designed and coded from scratch by me.
 * The project's structure looks like this
 ```
 css<br>
-- styles.css<br> 
-index.html<br>
-js<br>
-- app.js<br>
+- styles.css
+index.html
+js
+- app.js
 README.md
 ```
 * All features are usable across modern desktop, tablet, and phone browsers.
@@ -30,7 +30,7 @@ README.md
 ## Landing Page Behavior
 * Navigation is built dynamically as an unordered list. 
 * When clicking an item from the navigation menu, the link scrolls to the appropriate section.
-* Added some cool <code>animations</code> using <code>CSS</code> and <code>JS</code>, see if you can spot them all ;)
+* Added some cool animations using `CSS` and `JS`, see if you can spot them all ;)
 
 ## Documentation</li>
 * Comments are present and effectively explain longer code procedure when necessary.

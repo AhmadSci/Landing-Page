@@ -11,7 +11,7 @@ let i;
 //add sections to the navigation bar 
 for (let i=1; i<=sections.length; i++){
     let tempLi = document.createElement("li");
-    tempLi.innerHTML = "<p>Section "+i+"</p>";
+    tempLi.innerHTML = "<a>Section "+i+"</a>";
     tempLi.setAttribute("class", "navbarsection");
     navBar.appendChild(tempLi);
 }
@@ -86,7 +86,7 @@ for (let i = 0; i < navbarsections.length; i++){
                 navbarsections[i].classList.remove('active');
             }
         }else{
-            if ( document.documentElement.scrollTop > (sections[i].getBoundingClientRect().bottom + sections[i].getBoundingClientRect().y + 800)) {
+            if ( document.documentElement.scrollTop > (sections[i].getBoundingClientRect().bottom + sections[i].getBoundingClientRect().y + 700)) {
                 navbarsections[i].classList.add('active');
                 navbarsections[i-1].classList.remove('active');
             } else {
