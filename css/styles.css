@@ -127,6 +127,11 @@ ul{
 .navbarsection p {
     font-size: 10pt;
 }
+
+.active {
+    border-bottom: 2px solid #1a1a1a;
+}
+
 .logo{
     width:60%;
     margin-top: auto;

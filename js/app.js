@@ -74,3 +74,24 @@ window.addEventListener('scroll', function (e) {
             linkLogo.style.setProperty('filter', 'invert()');
         }
 });
+
+//add a line underneath the section currently in veiw 
+for (let i = 0; i < navbarsections.length; i++){
+    window.addEventListener('scroll', function (e) {
+        //checks if current section is the first section
+        if (sections[i]===sections[0]){ 
+            if ( document.documentElement.scrollTop > (title.getBoundingClientRect().bottom + 750)) {
+                navbarsections[i].classList.add('active');
+            } else {
+                navbarsections[i].classList.remove('active');
+            }
+        }else{
+            if ( document.documentElement.scrollTop > (sections[i].getBoundingClientRect().bottom + sections[i].getBoundingClientRect().y + 800)) {
+                navbarsections[i].classList.add('active');
+                navbarsections[i-1].classList.remove('active');
+            } else {
+                navbarsections[i].classList.remove('active');
+            }
+        }
+    });
+}
