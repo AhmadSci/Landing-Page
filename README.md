@@ -39,3 +39,6 @@ README.md
 [MDN Documentations](https://developer.mozilla.org/en-US/)
 
 [W3Schools](https://www.w3schools.com/)
+
+# Preview
+![LandingPage-Preview](/Landinig-Page-Demo.gif)
