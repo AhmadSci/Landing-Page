@@ -164,7 +164,7 @@ ul{
     display: flex;
     flex-direction: column;
     background-color: #8ca0ff;
-    height: 50em;
+    height: 60em;
     justify-content: center;
     align-items: center;
 }

@@ -1,6 +1,11 @@
 # Welcome to my First Website!!
 Built a LandingPage completly designed and coded from scratch by me.
 
+# Preview
+[Demo Preview Hosted on Netlify](https://happy-mayer-dc9699.netlify.app/)
+
+![LandingPage-Preview](/Landinig-Page-Demo.gif)
+
 ## Explanation
 * I used `HTML` to build MY desired structure of the site.
 
@@ -39,6 +44,3 @@ README.md
 [MDN Documentations](https://developer.mozilla.org/en-US/)
 
 [W3Schools](https://www.w3schools.com/)
-
-# Preview
-![LandingPage-Preview](/Landinig-Page-Demo.gif)
